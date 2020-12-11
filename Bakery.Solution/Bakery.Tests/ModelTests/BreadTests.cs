@@ -9,7 +9,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadOrder_CreateInstanceOfBreadOrder_BreadOrder()
     {
-      BreadOrder newBreadOrder = new BreadOrder(1);
+      BreadOrder newBreadOrder = new BreadOrder(2);
       Assert.AreEqual(typeof(BreadOrder), newBreadOrder.GetType());
     }
 
@@ -18,6 +18,13 @@ namespace Bakery.Tests
     {
       BreadOrder newBreadOrder = new BreadOrder(2);
       Assert.AreEqual(2, newBreadOrder.NumberOfLoafs);
+    }
+
+    [TestMethod]
+    public void BreadOrder_SetCostPerLoafTo5_5()
+    {
+      BreadOrder newBreadOrder = new BreadOrder(2);
+      Assert.AreEqual(5, newBreadOrder.CostPerLoaf);
     }
   }
 }
