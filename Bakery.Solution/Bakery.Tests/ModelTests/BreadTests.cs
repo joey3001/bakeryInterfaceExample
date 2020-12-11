@@ -31,7 +31,7 @@ namespace Bakery.Tests
     public void BreadOrder_CalculateBreadOrderCostForEvenAmountOfLoafs_10()
     {
       BreadOrder newBreadOrder = new BreadOrder(4);
-      Assert.AreEqual(1, newBreadOrder.OrderCost());
+      Assert.AreEqual(10, newBreadOrder.OrderCost());
     }
   }
 }
