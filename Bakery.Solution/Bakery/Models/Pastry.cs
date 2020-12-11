@@ -2,11 +2,7 @@ using System;
 
 namespace Bakery.Models
 {
-  public class Pastry
+  public class PastryOrder
   {
-    public void test() 
-    {
-      Console.WriteLine("pastry test");
-    }
   }
 }

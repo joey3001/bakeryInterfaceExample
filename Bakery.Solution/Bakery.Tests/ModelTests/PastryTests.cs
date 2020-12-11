@@ -3,5 +3,8 @@ using Bakery.Models;
 
 namespace Bakery.Tests
 {
-  
+  [TestClass]
+  public class PastryTests
+  {
+  }
 }
