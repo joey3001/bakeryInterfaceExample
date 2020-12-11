@@ -17,7 +17,7 @@ namespace Bakery.Tests
     public void PastryOrder_ProvideInputForNumberOfPastries_2()
     {
       PastryOrder newPastryOrder = new PastryOrder(2);
-      Assert.AreEqual(1, newPastryOrder.NumberOfPastries);
+      Assert.AreEqual(2, newPastryOrder.NumberOfPastries);
     }
   }
 }
