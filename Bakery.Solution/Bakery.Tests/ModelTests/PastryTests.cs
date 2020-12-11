@@ -24,7 +24,7 @@ namespace Bakery.Tests
     public void PastryOrder_SetCostPerPastryTo2_2()
     {
       PastryOrder newPastryOrder = new PastryOrder(2);
-      Assert.AreEqual(1, newPastryOrder.CostPerPastry);
+      Assert.AreEqual(2, newPastryOrder.CostPerPastry);
     }
   }
 }
