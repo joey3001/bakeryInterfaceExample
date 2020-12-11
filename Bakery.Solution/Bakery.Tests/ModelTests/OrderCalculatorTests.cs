@@ -10,7 +10,7 @@ namespace Bakery.Tests
     public void OrderCalculator_CreateInstanceOfOrderCalculator_OrderCalculator()
     {
       OrderCalculator newOrderCalculator = new OrderCalculator();
-      Assert.AreEqual(typeof(string), newOrderCalculator.GetType());
+      Assert.AreEqual(typeof(OrderCalculator), newOrderCalculator.GetType());
     }
   }
 }
