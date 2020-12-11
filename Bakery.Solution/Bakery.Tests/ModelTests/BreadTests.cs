@@ -27,5 +27,11 @@ namespace Bakery.Tests
       Assert.AreEqual(5, newBreadOrder.CostPerLoaf);
     }
 
+    [TestMethod]
+    public void OrderCalculator_CalculateCostOfEvenAmountOfLoafs_5()
+    {
+      BreadOrder newBreadOrder = new BreadOrder(2);
+      Assert.AreEqual(5, newBreadOrder.OrderCost());
+    }
   }
 }
