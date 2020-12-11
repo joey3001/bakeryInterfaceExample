@@ -22,5 +22,13 @@ namespace Bakery.Models
       CostPerLoaf = _costPerLoaf; 
       NumberOfLoafs = numberOfLoafs; 
     }
+    public int OrderCost()
+    {
+      if (NumberOfLoafs % 2 == 0)
+      {
+        return NumberOfLoafs/2 * CostPerLoaf;
+      }
+      return 0; 
+    }
   }
 }
