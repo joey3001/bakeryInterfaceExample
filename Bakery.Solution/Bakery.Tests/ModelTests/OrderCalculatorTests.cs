@@ -17,7 +17,7 @@ namespace Bakery.Tests
     {
       OrderCalculator newOrderCalculator = new OrderCalculator();
       BreadOrder newBreadOrder = new BreadOrder(4);
-      Assert.AreEqual(1, newOrderCalculator.BreadCalculator());
+      Assert.AreEqual(1, newOrderCalculator.BreadCalculator(newBreadOrder.NumberOfLoafs, newBreadOrder.CostPerLoaf));
     }
   }
 }
