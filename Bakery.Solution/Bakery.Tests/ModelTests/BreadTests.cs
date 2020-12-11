@@ -24,7 +24,7 @@ namespace Bakery.Tests
     public void BreadOrder_SetCostPerLoafTo5_5()
     {
       BreadOrder newBreadOrder = new BreadOrder(2);
-      Assert.AreEqual(1, newBreadOrder.CostPerLoaf);
+      Assert.AreEqual(5, newBreadOrder.CostPerLoaf);
     }
   }
 }
