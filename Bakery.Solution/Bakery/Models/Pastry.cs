@@ -4,5 +4,8 @@ namespace Bakery.Models
 {
   public class PastryOrder
   {
+    public PastryOrder()
+    {
+    }
   }
 }
