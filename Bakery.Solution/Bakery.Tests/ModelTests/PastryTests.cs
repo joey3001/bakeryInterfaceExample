@@ -10,7 +10,7 @@ namespace Bakery.Tests
     public void PastryOrder_CreateInstanceOfPastryOrder_PastryOrder()
     {
       PastryOrder newPastryOrder = new PastryOrder();
-      Assert.AreEqual(typeof(string), newPastryOrder.GetType());
+      Assert.AreEqual(typeof(PastryOrder), newPastryOrder.GetType());
     }
   }
 }
