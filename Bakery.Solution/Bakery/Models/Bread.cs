@@ -19,7 +19,7 @@ namespace Bakery.Models
     public int NumberOfLoafs { get; set; }
 
 
-    public BreadOrder(int _costPerLoaf, int numberOfLoafs)
+    public BreadOrder(int numberOfLoafs)
     {
       CostPerLoaf = _costPerLoaf; 
       NumberOfLoafs = numberOfLoafs; 
