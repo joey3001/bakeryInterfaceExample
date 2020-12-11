@@ -1,0 +1,11 @@
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\bin\Debug\netcoreapp2.2\Bakery.deps.json
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\bin\Debug\netcoreapp2.2\Bakery.runtimeconfig.json
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\bin\Debug\netcoreapp2.2\Bakery.runtimeconfig.dev.json
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\bin\Debug\netcoreapp2.2\Bakery.dll
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\bin\Debug\netcoreapp2.2\Bakery.pdb
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\obj\Debug\netcoreapp2.2\Bakery.csprojAssemblyReference.cache
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\obj\Debug\netcoreapp2.2\Bakery.csproj.CoreCompileInputs.cache
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\obj\Debug\netcoreapp2.2\Bakery.AssemblyInfoInputs.cache
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\obj\Debug\netcoreapp2.2\Bakery.AssemblyInfo.cs
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\obj\Debug\netcoreapp2.2\Bakery.dll
+C:\Users\josep\OneDrive\Desktop\C#Week1Project\bakery.solution\bakery\obj\Debug\netcoreapp2.2\Bakery.pdb
