@@ -10,7 +10,7 @@ namespace Bakery.Tests
     public void test()
     {
       BreadOrder newBreadOrder = new BreadOrder(5, 1);
-      Assert.AreEqual(typeof(string), newBreadOrder.GetType());
+      Assert.AreEqual(typeof(BreadOrder), newBreadOrder.GetType());
     }
   }
 }
