@@ -28,10 +28,17 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void BreadOrder_CalculateBreadOrderCostForEvenAmountOfLoafs_10()
+    public void OrderCost_CalculateBreadOrderCostForEvenAmountOfLoafs_10()
     {
       BreadOrder newBreadOrder = new BreadOrder(4);
       Assert.AreEqual(10, newBreadOrder.OrderCost());
+    }
+
+    [TestMethod]
+    public void OrderCost_CalculateBreadOrderCostForOddAmountOfLoafs_10()
+    {
+      BreadOrder newBreadOrder = new BreadOrder(5);
+      Assert.AreEqual(0, newBreadOrder.OrderCost());
     }
   }
 }
