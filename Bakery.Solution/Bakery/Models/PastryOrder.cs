@@ -24,7 +24,11 @@ namespace Bakery.Models
     }
     public int OrderCost()
     {
-      
+      if (NumberOfPastries % 3 == 0)
+      {
+        return (NumberOfPastries/3) * 5; 
+      }
+      return 0; 
     }
   }
 }
