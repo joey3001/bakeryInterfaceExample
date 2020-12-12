@@ -28,7 +28,7 @@ namespace Bakery.Models
       {
         return (NumberOfPastries/3) * 5; 
       }
-      return 0; 
+      return NumberOfPastries * CostPerPastry - NumberOfPastries/3; 
     }
   }
 }

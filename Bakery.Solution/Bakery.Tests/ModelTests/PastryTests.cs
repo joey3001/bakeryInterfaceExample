@@ -37,7 +37,7 @@ namespace Bakery.Tests
     [TestMethod]
     public void OrderCost_CalculateOrderCostsForNotAMultipleOf3NumberOfPastries_14()
     {
-      PastryOrder newPastryOrder = new PastryOrder(9);
+      PastryOrder newPastryOrder = new PastryOrder(8);
       Assert.AreEqual(0, newPastryOrder.OrderCost());
     }
   }
