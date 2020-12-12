@@ -17,7 +17,7 @@ namespace Bakery.Tests
     public void TotalCost_CreateInstanceOfOrderCalculator_OrderCalculator()
     {
       OrderCalculator newOrderCalculator = new OrderCalculator();
-      Assert.AreEqual(0, newOrderCalculator.TotalCost(14, 16));
+      Assert.AreEqual(30, newOrderCalculator.TotalCost(14, 16));
     }
   }
 }
