@@ -14,7 +14,7 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void TotalCost_CreateInstanceOfOrderCalculator_OrderCalculator()
+    public void TotalCost_AddTwoNumbersTogether_30()
     {
       OrderCalculator newOrderCalculator = new OrderCalculator();
       Assert.AreEqual(30, newOrderCalculator.TotalCost(14, 16));
