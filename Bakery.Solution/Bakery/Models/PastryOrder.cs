@@ -22,5 +22,9 @@ namespace Bakery.Models
       CostPerPastry = _costPerPastry; 
       NumberOfPastries = numberOfPastries; 
     }
+    public int OrderCost()
+    {
+      
+    }
   }
 }

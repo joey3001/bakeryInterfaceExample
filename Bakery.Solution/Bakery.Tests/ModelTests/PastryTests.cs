@@ -26,5 +26,12 @@ namespace Bakery.Tests
       PastryOrder newPastryOrder = new PastryOrder(2);
       Assert.AreEqual(2, newPastryOrder.CostPerPastry);
     }
+
+    [TestMethod]
+    public void OrderCost_CalculateOrderCostsForAMultipleOf3NumberOfPastries_15()
+    {
+      PastryOrder newPastryOrder = new PastryOrder(2);
+      Assert.AreEqual(0, newPastryOrder.OrderCost());
+    }
   }
 }
