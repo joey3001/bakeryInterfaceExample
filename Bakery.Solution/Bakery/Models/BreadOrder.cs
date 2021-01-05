@@ -2,7 +2,7 @@ using System;
 
 namespace Bakery.Models
 {
-  public class BreadOrder
+  public class BreadOrder 
   {
     private int _costPerLoaf;
     public int CostPerLoaf 

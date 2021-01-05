@@ -3,10 +3,16 @@ using System;
 namespace Bakery.Models
 {
   public class OrderCalculator
-  {
-    public int TotalCost(int breadCost, int pastryCost)
+  { 
+    public int TotalCost(IOrder[] Orders)
     {
-      return breadCost + pastryCost; 
+      int result = 0;
+      for (int i = 0; i < Orders.Length; i++)
+      {
+        result = result + Orders[i].OrderCost();
+      }
+      return result;
     }
   }
 }
+
